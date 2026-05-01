@@ -18,16 +18,17 @@ function Router() {
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
+// NOTE: Dark Gaming Aesthetic Design
+// - Deep navy-black background with neon purple/cyan accents
+// - Glowing card borders and smooth gaming animations
+// - High contrast for excellent readability
+// - Cyberpunk-inspired modern gaming UI
 
 function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider
-        defaultTheme="light"
+        defaultTheme="dark"
         // switchable
       >
         <TooltipProvider>
